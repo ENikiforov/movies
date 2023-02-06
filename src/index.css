@@ -1,0 +1,27 @@
+body{
+    padding: 0px 1rem;
+    margin: 0px;
+    height: 100vh;
+}
+
+nav{
+    padding: 10px;
+}
+.content{
+    min-height: calc( 100vh - 134px);
+    padding: 1rem 0 ;
+}
+.movies{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)) ;
+    gap: 1rem;
+}
+
+.search-btn{
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+label:not(:last-child){
+    margin-right: 1rem;
+}
